@@ -16,7 +16,7 @@ jobs:
       - name: build and test
         uses: ros-tooling/action-ros-ci@v0.2
         with:
-          package-name: YOUR_PACKAGE_HERE MORE_PACKAGES_HERE
+          package-name: demo_nodes_cpp
           target-ros2-distro: ${{ matrix.ros_distribution }}
 
   test_docker: # On Linux, iterates on all ROS 1 and ROS 2 distributions.
